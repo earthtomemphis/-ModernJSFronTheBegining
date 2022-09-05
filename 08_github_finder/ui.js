@@ -44,7 +44,7 @@ class UI {
 
 		repos.forEach(function (repo) {
 			output += `
-            <div class="card card-body mb-3">
+            <div class="card card-bod mb-3">
 					<div class="row">
 						<div class="col-md-6">
 							<a href="${repo.html_url}" target="_blank" rel="noopener noreferrer">${repo.name}</a>
